@@ -8,3 +8,17 @@ __pycache__/
 *.pyproj.user
 *.pyperf
 *.psess
+
+# Outputs
+*.pdf
+*.svg
+*.ps
+
+# Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak
+venv.bak
