@@ -17,12 +17,19 @@ This small app can save some commonly used opencv markers such as ArUco, ArUcoGr
 
 ## Installation on Windows
 Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo the pycairo version 1.19.1 or newer for your python version. (cp38 stands for Python3.8 and amd64 for 64-Bit Version)
+
 Change in requirements the line:
-```pycairo==1.19.1``` 
+
+`pycairo==1.19.1` 
+
 to:
-```pycairo @ file:///[path/of/your/Downloadfolder]/pycairo-1.19.1-cpXX-cpXX-win_amd64.whl```
+
+`pycairo @ file:///[path/of/your/Downloadfolder]/pycairo-1.19.1-cpXX-cpXX-win_amd64.whl`
+
 After that install requirements:
-```python -m pip install -r requirements.txt```
+
+`python -m pip install -r requirements.txt```
+
 Copy from Python installation Path ```\Lib\site-packages\cairo\cairo.dll``` to ```C:\Windows\System32```
 
 ## Tutorial
