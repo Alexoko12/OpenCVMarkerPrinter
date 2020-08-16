@@ -1,6 +1,7 @@
 __pycache__/
 
 # Visual studio
+.vscode/
 *.sdf
 *.sln
 *.suo
