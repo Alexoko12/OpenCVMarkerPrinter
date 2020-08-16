@@ -28,9 +28,15 @@ to:
 
 After that install requirements:
 
-`python -m pip install -r requirements.txt```
+`python -m pip install -r requirements.txt`
 
-Copy from Python installation Path ```\Lib\site-packages\cairo\cairo.dll``` to ```C:\Windows\System32```
+Copy from Python installation Path 
+
+`\Lib\site-packages\cairo\cairo.dll` 
+
+to: 
+
+`C:\Windows\System32`
 
 ## Tutorial
 #### GUI
