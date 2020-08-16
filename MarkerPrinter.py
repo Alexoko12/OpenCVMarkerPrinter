@@ -4,6 +4,13 @@
 #
 # Copyright (c) 2019, Josh Chien. All rights reserved.
 
+if __name__ == '__main__':
+    # Set current working directory to folder where script and arucoDictBytesList.npz is  
+    from os import chdir as os_chdir
+    from pathlib import Path
+    work_dir=Path(__file__).parent
+    os_chdir(work_dir)
+
 from argparse import ArgumentParser
 import numpy as np
 from PIL import Image
