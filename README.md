@@ -85,7 +85,7 @@ If you are using consumer level printer, you will suffer from not able printing 
 If you are printing the image directly, you will need add page border to protect the marker, so just set page border at the GUI pageBorder entry before saving the marker to files. If you are using command-line interface, just add --page_border_x x --page_border_y y as parameters.
 
 ### Generate aruco data:
-Although there is a built-in aruco dictionary data, but if you want to update the dictionary(If aruco update predefined dictionary list), just install opencv-python and opencv-contrib-python, and than run
+Although there is a built-in aruco dictionary data, but if you want to update the dictionary (if aruco update predefined dictionary list), just install opencv-contrib-python (if you installed your enviroment with requirements.txt, it is already installed), and than run
 ```
 python MarkerPrinter.py --generate arucoDictBytesList.npz
 ```
